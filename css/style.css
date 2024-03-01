@@ -40,6 +40,10 @@ h2 {
     text-decoration: none;
     list-style-type: none;
 }
+.container li {
+    text-decoration: none;
+    list-style-type: none;
+}
 .link {
     color: #2e2f42;
     font-size: 16px;
@@ -69,6 +73,10 @@ color: #404bbf;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: inline;
+}
+.link {
+    display: inline;
 }
 .mail-tel {
     color: #434455;
@@ -107,13 +115,10 @@ color: #404bbf;
     font-size: 16px;
     line-height: 1.5;
     padding: 16px 32px 16px 32px;
-    margin-top: 48px;
-    margin-left: 635px;
+    margin; auto 0;
     gap: 10px;
     border-radius: 4px;
-}
-.section-third {
-    background-color: #F4F4FD;
+    display: inline;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -148,9 +153,12 @@ color: #404bbf;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    
 }
 .section-third {
     background-color: #F4F4FD;
+    width: 1440px;
+    height: 732px;
 }
 .list {
     background-color: #FFFFFF;
@@ -216,7 +224,68 @@ color: #404bbf;
 .wrapper .address {
     display: flex;
     justify-content: baseline;
+    padding-left: 332px;
+    margin-right: 156px;
 }
 .second-link {
     display: flex;
+    gap: 40px;
+}
+.nav {
+    margin-left: 156px;
+    display: flex;
+}
+.container .ul-list {
+    display: flex;
+}
+.ul-list .second-section-list {
+    display: flex;
+}
+.container .team {
+    display: flex;
+}
+.team-people {
+    align-items: center;
+    display: flex;
+}
+.ul-list .list {
+    width: 264px;
+    gap: 24px;
+}
+.thumb {
+    width: 264px;
+    height: 260px;
+}
+img {
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
+}
+.section .container {
+    display: block;
+    width: 1128px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-left: 156px;
+    margin-right: 156px;
+    flex-direction: row;
+}
+.first-box {
+    flex-direction: row;
+    display: flex;
+}
+.second-box {
+    flex-direction: row;
+    display:flex
+}
+.section-third .container {
+    gap: 50px;
+    display: block;
+}
+.team-people {
+    justify-content: center;
+    padding-top: 120px;
+}
+.our-portfolio {
+    justify-content: center;
 }
