@@ -279,7 +279,7 @@ img {
     display: flex;
     gap: 24px;
 }
-.ul-list-one {
+.second-section-list {
     width: calc((100%-3*24px)/4);
 }
 .container-footer>a {
@@ -296,11 +296,11 @@ img {
     display: flex;
     gap: 24px;
 }
-.ul-list {
+.list {
     width: calc((100%-72px)/4);
     border-radius: 0px 0px 4px 4px; 
 }
-.worker {
+.list .worker {
     padding: 32px 16px;
 }
 .text-worker {
@@ -312,9 +312,6 @@ img {
 }
 .section-second {
     padding: 120px 0;
-}
-.portfolio {
-    width: calc((100%-72px)/4);
 }
 .team-people {
     margin-bottom: 72px;
