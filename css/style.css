@@ -275,7 +275,7 @@ img {
 .section-third {
     padding: 120px 0;
 }
-.container .ul-list-one {
+.ul-list-one>li {
     display: flex;
     flex-basis: calc((100%-3*24px)/4);
     gap: 24px;
@@ -294,8 +294,9 @@ img {
     display: flex;
     gap: 24px;
 }
-.ul-list .list {
+.ul-list>li {
     flex-basis: calc((100%-72px)/4);
+    border-radius: 0px 0px 4px 4px; 
 }
 .list .worker {
     padding: 32px 16px;
@@ -312,4 +313,10 @@ img {
 }
 .ul-list-one .second-level {
     flex-basis: calc((100%-72px)/4);
+}
+.team-people {
+    margin-bottom: 72px;
+}
+.worker {
+    padding: 32px 16px;
 }
