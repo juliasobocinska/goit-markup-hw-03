@@ -275,10 +275,12 @@ img {
 .section-third {
     padding: 120px 0;
 }
-.ul-list-one>li {
+.container .ul-list-one {
     display: flex;
-    flex-basis: calc((100%-3*24px)/4);
     gap: 24px;
+}
+.ul-list-one>li {
+    flex-basis: calc((100%-3*24px)/4);
 }
 .container-footer>a {
     display: inline-block;
