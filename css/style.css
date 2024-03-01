@@ -29,7 +29,7 @@ a {
     letter-spacing: 4%;
     text-decoration: underline;
 }
-h2 {
+.second-level {
     visibility: hidden;
     margin-bottom: 72px;
 }
@@ -152,6 +152,7 @@ color: #404bbf;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .team {
     font-size: 36px;
@@ -160,7 +161,6 @@ color: #404bbf;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    
 }
 .section-third {
     background-color: #F4F4FD;
@@ -238,14 +238,6 @@ img {
     margin-right: 156px;
     flex-direction: row;
 }
-.first-box {
-    flex-direction: row;
-    display: flex;
-}
-.second-box {
-    flex-direction: row;
-    display: flex;
-}
 .section-third .container {
     gap: 50px;
     display: block;
@@ -298,13 +290,14 @@ img {
 .section-first {
     padding: 188px 0;
 }
-.ul-list .list {
+.ul-list {
     display: flex;
     gap: 24px;
-    flex-basis: calc((100%-72px)/4);
-    border-radius: 0px 0px 4px 4px;
 }
-.worker {
+.ul-list .list {
+    flex-basis: calc((100%-72px)/4);
+}
+.list .worker {
     padding: 32px 16px;
 }
 .text-worker {
@@ -313,4 +306,10 @@ img {
 }
 .paragraph-worker {
     text-align: center;
+}
+.section-second {
+    padding: 120px 0;
+}
+.ul-list-one .second-level {
+    flex-basis: calc((100%-72px)/4);
 }
