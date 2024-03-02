@@ -279,7 +279,7 @@ img {
     display: flex;
     gap: 24px;
 }
-.second-section-list {
+.ul-list-one .second-section-list {
     width: calc((100%-3*24px)/4);
 }
 .container-footer>a {
@@ -296,12 +296,9 @@ img {
     display: flex;
     gap: 24px;
 }
-.list {
+.ul-list .list {
     width: calc((100%-72px)/4);
     border-radius: 0px 0px 4px 4px; 
-}
-.list .worker {
-    padding: 32px 16px;
 }
 .text-worker {
     text-align: center;
@@ -316,7 +313,7 @@ img {
 .team-people {
     margin-bottom: 72px;
 }
-.worker {
+.list .worker {
     padding: 32px 16px;
 }
 .section {
@@ -332,7 +329,7 @@ img {
     column-gap: 24px;
     row-gap: 48px;
 }
-.list-fourth {
+.portfolio .list-fourth {
     width: calc((100% - 48px) / 3);
 }
 .category {
