@@ -144,7 +144,6 @@ h1 {
     text-align: center;
     letter-spacing: 2%;
     display: flex;
-    padding-top: 188px;
     padding-bottom: 48px;
     margin: 0 auto;
     justify-content:center;
@@ -294,8 +293,6 @@ ul>.list-fourth {
 .section .container {
     display: block;
     width: 1128px;
-    padding-top: 120px;
-    padding-bottom: 120px;
     margin: 0 auto;
     flex-direction: row;
 }
@@ -313,11 +310,12 @@ ul>.list-fourth {
 .textfooter {
     font-family: "Roboto", sans-serif;
     font-weight: normal;
-    font-size: 12px;
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 24px;
     letter-spacing: 2%;
     color: #F4F4FD;
     text-align: left;
+    width:264px;
 }
 .logo-footer {
     color: #F4F4FD;
@@ -326,8 +324,7 @@ ul>.list-fourth {
     width: 264px;
     height: 112px;
     margin-left: 156px;
-    padding-bottom: 100px;
-    padding-top: 100px;
+    margin-bottom: 100px;
     margin-right: 1020px;
 }
 .container-footer>a {
